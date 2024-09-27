@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(248, 248, 248);
+  }
+.container  {
+    width: 1200px;
+    min-height: 600px;
+    margin: 0 auto;
+}
+header{
+    width: 1200x;
+    height: 100px;
+    background-color: #f26b9f;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.logo h1{
+    color: #FFFFFF;
+}
+main{
+    margin-top: 10px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+nav{
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    left: 25px;
+}
+    nav a{
+        width: 600px;
+        font-size: 30px;
+        text-decoration: none;
+         margin-left: 75px;
+        color: #1E1E1E;
+        position: relative;
+         top: 25px;
+    }
+
+
+    nav a:first-child{
+        color: #FFFFFF;
+    }
+
+
+nav a:hover{
+    color: aliceblue;
+    transition: 0.4s all ease;
+}
+
+    .about{
+        width: 1280px;
+        height: 400px;
+        background-color: #E5E5E5;
+    }
+
+
+
+
+    .btn2{
+        position: relative;
+        top: 48px;
+        width: 100px;
+    }
+    /* About */
+
+
+    .about_info{
+        width: 400px;
+    }
+.about_info h1{
+    font-size: 64px;
+    color: #575757;
+}
+.about_info h4{
+    width: 500px;
+    font-size: 24px;
+    color: #575757;
+    font-family: Roboto;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.about_button{
+    display: flex;
+    justify-content: space-between;
+}
+.about_button button{
+    width: 250px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+
+button{
+    background-color: #FFFFFF;
+    border: 1px solid #f26b9f;
+    box-shadow: 2px 2px 5px 2px grey;
+    font-size: 24px;
+    color:#f26b9f ;
+}
+ section .btn{
+    background-color: #f26b9f;
+       box-shadow: 2px 2px 5px 2px grey;
+    font-size: 30x;
+    color: #FFFFFF;
+    width: 170px;
+    height: 50px;
+    margin-top: 50px;
+}
+section{
+    margin-top: 25px;
+}
+    .about_img{
+        width: 400px;
+        height: 400px;
+    }
+    .img{
+        width: 400px;
+        height: 400px;
+    }
+
+
+
+
+    /* Menu */
+
+main img{
+    border-top: 15px solid palevioletred;
+    border-radius: 15px;
+}
+main img:hover{
+    box-shadow: 2px 2px 8px 8px palevioletred;
+    transition: 0.4s all ease;
+}
+    .menu_h1{
+        font-size: 48px;
+        color: #575757;
+       text-align: center;
+    }
+    .menu_sushi{
+        display: flex;
+    justify-content: space-around;
+    }
+
+
+
+
+    .item_text h1{
+        color: #f26b9f;
+        font-size: 36px;
+    }
+    .item_text p{
+color: #000000;
+font-size: 22px;
+
+
+width: 290px;
+    }
+
+
+    .item_text h2{
+        color: #FF6B00;
+        font-size: 29px;
+       
+    }
+
+
+
+
